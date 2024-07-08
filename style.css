@@ -1,6 +1,9 @@
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
@@ -68,4 +71,17 @@ body {
   border-radius: 8px;
   font-weight: 700;
   margin-top: 10px;
+}
+
+.body {
+  flex: 1;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F2937;
+  color: #E5E7EB;
+  height: 100px;
 }
