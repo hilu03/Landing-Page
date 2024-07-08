@@ -5,6 +5,7 @@ body {
   flex-direction: column;
 }
 
+/* header */
 .header {
   background-color: #1F2937;
   display: flex;
@@ -77,17 +78,20 @@ body {
   font-size: 18px;
 }
 
+/* body */
+
 .body {
   flex: 1;
   display: flex;
   flex-direction: column;
 }
 
+/* info section */
 .info-section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 70px 0 90px;
+  padding: 70px 30px 90px;
   gap: 50px;
 }
 
@@ -123,6 +127,31 @@ body {
   font-size: 18px;
 }
 
+/* quote section */
+.quote-section {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+  max-width: 790px;
+  font-weight: 300;
+}
+
+.author {
+  font-weight: 700;
+  font-size: 25px;
+  margin-left: auto;
+  margin-right: 300px;
+}
+
+/* footer */
 .footer {
   display: flex;
   justify-content: center;
