@@ -64,7 +64,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* flex-shrink: 0; */
 }
 
 .sign-up {
@@ -149,6 +148,42 @@ body {
   font-size: 25px;
   margin-left: auto;
   margin-right: 300px;
+}
+
+/* call to action */
+.action-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.action-container {
+  background-color: #3882F6;
+  border-radius: 10px;
+  padding: 40px 130px;
+  display: flex;
+  gap: 150px;
+  color: #F9FAF8;
+}
+
+.action-header {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.action-description {
+  color: #E5E7EB;
+}
+
+.sign-up-action {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 3px 30px;
+  border: 3px solid #F9FAF8;
+  border-radius: 10px;
 }
 
 /* footer */
